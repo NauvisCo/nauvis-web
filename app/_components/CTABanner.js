@@ -12,7 +12,7 @@ export default function CTABanner() {
                 <div className="grid grid-cols-2 gap-6 lg:gap-8 lg:gap-y-12 bg-light py-12 px-10 lg:px-24">
                     <div className="prose lg:prose-2xl max-w-7xl prose-invert">
                         <h2 className='font-medium '>
-                            <AutoTyperNL typeArray={['stay up-to-date with our progress']} />
+                            <AutoTyperNL typeArray={['keep up with our progress']} />
                         </h2>
                     </div>
                     <div className="prose lg:prose-2xl max-w-7xl prose-invert grid grid-cols-1 gap-8 lg:gap-10">
@@ -24,8 +24,8 @@ export default function CTABanner() {
                 <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:gap-y-12 bg-light py-16 px-10 lg:px-24">
                     <div className="prose lg:prose-2xl max-w-7xl prose-invert">
                         <div className="prose lg:prose-2xl max-w-7xl prose-invert">
-                            <h1 className='font-medium'>
-                                <AutoTyperNL typeArray={['stay up-to-date with our progress']} />
+                            <h1 className='font-medium text-center'>
+                                <AutoTyperNL typeArray={['keep up with our progress']} />
                             </h1>
                         </div>
                     </div>
