@@ -245,7 +245,7 @@ export default function Home() {
                         height: 'auto',
                       }}
                       width={1000}
-                      height={1125}
+                      height={1125} 
                     />
                   </div>
                 </Tab.Panel>
