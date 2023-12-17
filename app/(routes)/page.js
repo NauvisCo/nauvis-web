@@ -8,6 +8,7 @@ import WaitlistForm from '../_components/WaitlistForm';
 import AutoTyper from '../_components/AutoTyper';
 import AutoTyperNL from '../_components/AutoTyperNL';
 import CTABanner from '../_components/CTABanner';
+import { Tab } from "@headlessui/react";
 
 // export const metadata = {
 //   title: 'Nauvis',
@@ -72,27 +73,27 @@ export default function Home() {
               </div>
             </div>
             <div className="col-span-1 col-start-2">
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
                 <h3 className="mt-2">tailored content understanding</h3>
                 <p className="text-base text-bg2">with configurable machine learning models tailored to unique product dynamics, user journeys and value drivers, nauvis recommendations capture nuanced affiliations beyond one-size-fits all algorithms.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
                 <h3>performance analytics & optimization</h3>
                 <p className="text-base text-bg2">we provide clear roi analytics quantifying the sales impact of improved engagement and conversions driven by nauvis recommendations - and continually optimize the experience.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
+              <div className="bg-gradient-to-r from-highlight to-highlight2 prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
                 <h3>context-aware real-time delivery</h3>
                 <p className="text-base text-bg2">by considering each user's historical behaviors, recent browsing patterns and explicit feedback in-the-moment of interaction, our suggestions drive hyper-relevant engagement in any channel.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
                 <h3>multi-armed performance</h3>
                 <p className="text-base text-bg2">using advanced multi-touch attribution, we provide clear analytics quantifying the impact recommendations have on key business metrics - conversions, order values, retention - empowering continual optimization towards specific kpis.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-12 mb-20">
                 <h3>deployment agility</h3>
                 <p className="text-base text-bg2">with our flexible apis, cloud architecture and enterprise integration support, nauvis upgrades personalized experiences across channels and touchpoints without disrupting technical infrastructure.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-12">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-12">
                 <h3>trust & transparency</h3>
                 <p className="text-base text-bg2">we provide guardrails around bias, filter bubbles, and manipulation - instilling trust in automated experiences through governance, audit trails and exposing users to diverse ideas.</p>
               </div>
@@ -113,7 +114,7 @@ export default function Home() {
                 height={1125}
               />
               <div className='col-span-1 prose lg:prose-2xl place-self-center'>
-                <h2 className="font-light">crafting connections through intelligent experiences</h2>
+                <h2 className="font-xl">crafting connections through intelligent experiences</h2>
                 <p className='text-base'>nauvis enables digital properties across verticals to forge meaningful and relevant engagements with each visitor through unrivaled personalization powered by adaptable machine-learning algorithms tailored to their unique environments.
                   <br />
                   <br />
@@ -171,6 +172,122 @@ export default function Home() {
 
             </div>
           </div>
+          <div className="grid grid-cols-5 gap-8 lg:gap-16 lg:gap-y-12 text-left justify-items-left bg-bg2 py-12 lg:py-32 px-10 lg:px-24">
+            <div className="col-span-3 col-start-1 h-fit">
+              <div className="prose lg:prose-2xl">
+                <h1 className='font-medium'>
+                  <AutoTyperNL typeArray={['industry application']} />
+                </h1>
+              </div>
+              <br />
+              <div className="prose lg:prose-2xl">
+                <p className="text-base">Our configurable recommendation algorithms and customer data infrastructure can power use cases from merchandise discovery to content suggestions - requiring no complex data wrangling or modeling.</p>
+              </div>
+            </div>
+            <Tab.Group>
+              <div className="col-span-1 col-start-1 mt-4">
+                <div className="prose lg:prose-2xl tabs">
+                  <Tab><a className="text-xl no-underline hover:underline decoration-highlight ui-selected:underline" >e-commerce</a></Tab><br />
+                  <Tab><a className="text-xl no-underline hover:underline decoration-highlight ui-selected:underline">education</a></Tab><br />
+                  <Tab><a className="text-xl no-underline hover:underline decoration-highlight ui-selected:underline">media</a></Tab><br />
+                  <Tab><a className="text-xl no-underline hover:underline decoration-highlight ui-selected:underline">financial services</a></Tab><br />
+                  <Tab><a className="text-xl no-underline hover:underline decoration-highlight ui-selected:underline">gaming</a></Tab><br />
+                </div>
+              </div>
+              <div className="col-span-4 col-start-2">
+                <Tab.Panel>
+                  <div className="prose lg:prose-2xl mb-8 max-w-full" >
+                    <h3 className="">e-commerce</h3>
+                    <p className="">increase conversion rates and order values by connecting visitors to products aligned to their taste graphs based on interests, purchase history, browsing behavior.</p>
+                    <Image
+                      className='col-span-1 rounded-[40px]'
+                      src="/marketplace.jpg"
+                      alt="Flight Picture Vectorized"
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={1000}
+                      height={1125}
+                    />
+                  </div>
+                </Tab.Panel>
+                <Tab.Panel>
+                  <div className="prose lg:prose-2xl mb-8 max-w-full" >
+                    <h3 className="">education</h3>
+                    <p className="">improve outcomes by recommending the optimal next video lectures, assignments and quiz questions tailored to align with students' mastery pace, knowledge gaps and learning style.</p>
+                    <Image
+                      className='col-span-1 rounded-[40px]'
+                      src="/educ.jpg"
+                      alt="Flight Picture Vectorized"
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={1000}
+                      height={1125}
+                    />
+                  </div>
+                </Tab.Panel>
+                <Tab.Panel>
+                  <div className="prose lg:prose-2xl mb-8 max-w-full" >
+                    <h3 className="">media</h3>
+                    <p className="">boost subscription revenue and retention by recommending personalized content pathways - video, audio, articles - for each customer through precise taste mapping.</p>
+                    <Image
+                      className='col-span-1 rounded-[40px]'
+                      src="/medias.jpg"
+                      alt="Flight Picture Vectorized"
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={1000}
+                      height={1125}
+                    />
+                  </div>
+                </Tab.Panel>
+                <Tab.Panel>
+                  <div className="prose lg:prose-2xl mb-8 max-w-full" >
+                    <h3 className="">financial services</h3>
+                    <p className="">grow share of wallet by intelligently promoting relevant new lending products, insurance offerings and account upgrades suited to customers.</p>
+                    <Image
+                      className='col-span-1 rounded-[40px]'
+                      src="/financial.jpg"
+                      alt="Flight Picture Vectorized"
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={1000}
+                      height={1125}
+                    />
+                  </div>
+                </Tab.Panel>
+                <Tab.Panel>
+                  <div className="prose lg:prose-2xl mb-8 max-w-full" >
+                    <h3 className="">gaming</h3>
+                    <p className="">better monetization of freemium models by converting users from free to paid conversions via tailored in-app offerings driven by behavioral and transaction signals.</p>
+                    <Image
+                      className='col-span-1 rounded-[40px]'
+                      src="/gaming.jpg"
+                      alt="Flight Picture Vectorized"
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={1000}
+                      height={1125}
+                    />
+                  </div>
+                </Tab.Panel>
+              </div>
+            </Tab.Group>
+          </div>
         </div>
         {/* Mobile */}
         <div className='block lg:hidden'>
@@ -188,27 +305,27 @@ export default function Home() {
               </div>
             </div>
             <div className="col-span-2">
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
                 <h3 className="mt-2">tailored content understanding</h3>
                 <p className="text-base text-bg2">with configurable machine learning models tailored to unique product dynamics, user journeys and value drivers, nauvis recommendations capture nuanced affiliations beyond one-size-fits all algorithms.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
                 <h3>performance analytics & optimization</h3>
                 <p className="text-base text-bg2">we provide clear roi analytics quantifying the sales impact of improved engagement and conversions driven by nauvis recommendations - and continually optimize the experience.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
                 <h3>context-aware real-time delivery</h3>
                 <p className="text-base text-bg2">by considering each user's historical behaviors, recent browsing patterns and explicit feedback in-the-moment of interaction, our suggestions drive hyper-relevant engagement in any channel.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
                 <h3>multi-armed performance</h3>
                 <p className="text-base text-bg2">using advanced multi-touch attribution, we provide clear analytics quantifying the impact recommendations have on key business metrics - conversions, order values, retention - empowering continual optimization towards specific kpis.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6 mb-10">
                 <h3>deployment agility</h3>
                 <p className="text-base text-bg2">with our flexible apis, cloud architecture and enterprise integration support, nauvis upgrades personalized experiences across channels and touchpoints without disrupting technical infrastructure.</p>
               </div>
-              <div className="bg-highlight prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6">
+              <div className="bg-gradient-to-r from-highlight to-highlight2  prose prose-invert lg:prose-2xl rounded-[20px] p-8 pt-6">
                 <h3>trust & transparency</h3>
                 <p className="text-base text-bg2">we provide guardrails around bias, filter bubbles, and manipulation - instilling trust in automated experiences through governance, audit trails and exposing users to diverse ideas.</p>
               </div>
@@ -286,6 +403,7 @@ export default function Home() {
                 <p className="text-base text-dark">identify and target customer archetypes demonstrating high affinity for certain items based on their holistic preference graph dna - beyond simplistic demographics.</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

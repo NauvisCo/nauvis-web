@@ -35,7 +35,7 @@ export default function MainNavbar() {
                 />
               </Link>
             </div>
-            <div className='flex items-center justify-self-center gap-12'>
+            {/* <div className='flex items-center justify-self-center gap-12'>
               <Link className="flex-auto decoration-2 hover:underline hover:decoration-highlight" href="/about">
                 about
               </Link>
@@ -50,7 +50,7 @@ export default function MainNavbar() {
               <Link href="/started" className=''>
                 <MainButton btn_txt='get started' />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* Mobile */}
@@ -71,9 +71,9 @@ export default function MainNavbar() {
                 />
               </Link>
             </div>
-            <div className='flex items-center justify-self-end'>
+            {/* <div className='flex items-center justify-self-end'>
               <div onClick={toggleBuger}><Hamburger burgeron={burgerOn} /></div>
-            </div>
+            </div> */}
           </div>
           {burgerOn ? <div className='grid grid-cols-1 auto-rows-auto gap-y-8 py-6 my-4 justify-items-center content-center bg-bg2'>
             <Link className="self-center" href="/about">

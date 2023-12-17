@@ -53,7 +53,9 @@ export default function MainFooter() {
                         </div>
                         <div></div>
                         <div></div>
-                        <div className='grid items-top justify-between justify-items-stretch gap-6 content-start'>
+                        <div></div>
+                        <div></div>
+                        {/* <div className='grid items-top justify-between justify-items-stretch gap-6 content-start'>
                             <Link className="hover:underline hover:decoration-highlight" href="/about">
                                 about
                             </Link>
@@ -73,15 +75,16 @@ export default function MainFooter() {
                             </Link>
                             <Link className="hover:underline hover:decoration-highlight" href="/careers">
                                 careers
-                            </Link></div>
+                            </Link>
+                        </div> */}
                         <div className='justify-self-end grid items-top justify-between justify-items-stretch gap-6 content-start'>
                             <p className=''>Designed & built in California.<br />
                                 © 2023 Nauvis Co.<br />
                                 All rights reserved. </p>
 
-                            <Link href="/started" className=''>
+                            {/* <Link href="/started" className=''>
                                 <MainButton btn_txt='get started' />
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
@@ -117,7 +120,7 @@ export default function MainFooter() {
                                 </Link>
                             </div>
                         </div>
-                        <div className='grid items-top justify-between justify-items-stretch gap-6 content-start text-center'>
+                        {/* <div className='grid items-top justify-between justify-items-stretch gap-6 content-start text-center'>
                             <Link className="" href="/about">
                                 about
                             </Link>
@@ -136,7 +139,7 @@ export default function MainFooter() {
                             </Link>
                             <Link className="" href="/careers">
                                 careers
-                            </Link></div>
+                            </Link></div> */}
                         <div className='grid items-top justify-between justify-items-stretch gap-6 content-start text-center'>
                             <p className=''>Designed & built in California.<br />
                                 © 2023 Nauvis Co. All rights reserved. </p>
