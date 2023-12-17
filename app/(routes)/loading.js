@@ -7,7 +7,7 @@ export default function Loading() {
     return (
         <div className='grid grid-cols-1 place-items-center gap-12 p-64 text-center'>
             <Image
-                src="/Logo Full - BlackPNX x2.png"
+                src="/FNauvis-Black.png"
                 alt="Nauvis Full Logo"
                 sizes="100vw"
                 style={{

@@ -23,7 +23,7 @@ export default function MainNavbar() {
             <div className='flex items-center justify-self-start'>
               <Link href="/">
                 <Image
-                  src="/Logo Full - BlackPNX x2.png"
+                  src="/FNauvis-Black.png"
                   alt="Nauvis Full Logo"
                   sizes="100vw"
                   style={{
@@ -59,7 +59,7 @@ export default function MainNavbar() {
             <div className='flex items-center justify-self-start'>
               <Link href="/">
                 <Image
-                  src="/Logo Full - BlackPNX x2.png"
+                  src="/FNauvis-Black.png"
                   alt="Picture of the author"
                   sizes="100vw"
                   style={{

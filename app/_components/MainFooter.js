@@ -17,7 +17,7 @@ export default function MainFooter() {
                         <div className='justify-self-start grid items-top justify-between justify-items-stretch gap-8 content-start'>
                             <Link href="/">
                                 <Image
-                                    src="/Icon - WhitePNX x2.png"
+                                    src="/INauvis-White.png"
                                     alt="Nauvis Icon"
                                     sizes="100vw"
                                     style={{
@@ -94,7 +94,7 @@ export default function MainFooter() {
                         <div className='grid items-top justify-between justify-items-center gap-6 content-start text-center'>
                             <Link href="/">
                                 <Image
-                                    src="/Icon - WhitePNX x2.png"
+                                    src="/INauvis-White.png"
                                     alt="Nauvis Icon"
                                     sizes="100vw"
                                     style={{
